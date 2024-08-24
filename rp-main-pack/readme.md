@@ -1,0 +1,516 @@
+https://themeforest.net/item/real-places-responsive-wordpress-real-estate-theme/12579089
+
+
+Change Log: Real Places WordPress Theme
+=============================================
+=============================================
+
+
+Version 1.4.0
+=============
+
+Features and Fixes:
+-------------------
+* Added homepage properties 4th variation.
+* Added social login support.
+* Added page content support for properties list & grid templates.
+* Added contact number field to agent’s contact forms.
+* Added pagination support for gallery templates.
+* Improve pagination support for homepage.
+* Updated & Improved included plugins.
+* Improved RTL styles.
+* Improved archive page description tag.
+* Improved property detail slider’s 3rd variation.
+* Added iframe support in front end property submit form to help users included embed codes for virtual tours and videos.
+* Updated translation.
+* Updated documentation.
+
+
+Files Added / Changed / Removed:
+--------------------------------
+css/main-rtl.css
+css/main-rtl.min.css
+css/main.css
+css/main.min.css
+css/theme-rtl.min.css
+css/theme.css
+css/theme.min.css
+functions.php
+images/svg/icon-area-two.svg
+images/svg/icon-bed-two.svg
+images/svg/icon-garage-two.svg
+images/svg/icon-shower.svg
+inc/ReduxFramework/CHANGELOG.md
+inc/ReduxFramework/ReduxCore/* ( All files in ReduxCore Directory )
+inc/meta-boxes/config.php
+inc/plugins/inspiry-real-estate.zip ( Plugin Zip )
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/default-demo/content.xml
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/default-demo/theme-options.txt
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/default-demo/widgets.json
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/content.xml
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/screen-image.jpg
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/theme-options.txt
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/widgets.json
+inc/theme-options/home-options.php
+inc/theme-options/images/properties-variation-4.png
+inc/util/basic-functions.php
+inc/util/contact-functions.php
+inc/util/member-functions.php
+inc/util/real-estate-functions.php
+js/custom.js
+js/imagesloaded.pkgd.min.js
+js/property-horizontal-scrolling.js
+languages/default.mo
+languages/default.po
+languages/realplaces.pot
+page-templates/full-width.php
+page-templates/home.php
+page-templates/properties-grid-with-sidebar.php
+page-templates/properties-grid.php
+page-templates/properties-list-with-sidebar.php
+page-templates/properties-list.php
+page-templates/submit-property.php
+partials/agent/single/contact-form.php
+partials/header/banner.php
+partials/home/properties-four.php
+partials/members/login.php
+partials/page/content.php
+partials/property/single/contact-form.php
+partials/property/single/similar-properties.php
+partials/property/single/slider-3.php
+partials/property/templates/gallery.php
+
+
+Version 1.3.2
+=============
+
+Features and Fixes:
+-------------------
+* Add Google Maps API key support for maps on admin side
+* Added new theme option to exclude featured properties from home properties
+* Fixed an email issue related to contact form
+* Added option to clear selection in multiple select meta boxes
+* Added support for new mortgage calculator plugin - https://wordpress.org/plugins/mortgage-calculator/
+* Updated TGM plugin activation class
+* Updated Inspiry Real Estate plugin included as part of the package
+
+Files Added / Changed / Removed:
+--------------------------------
+css/main.css
+css/theme.css
+functions.php
+header.php
+inc/meta-boxes/config.php
+inc/plugins/inspiry-real-estate.zip
+inc/tgm/class-tgm-plugin-activation.php
+inc/tgm/inspiry-required-plugins.php
+inc/theme-options/home-options.php
+inc/theme-options/misc-options.php
+inc/util/basic-functions.php
+inc/util/real-estate-functions.php
+js/custom.js
+page-templates/contact.php
+style.css
+
+
+Version 1.3.1
+=============
+
+Features and Fixes:
+-------------------
+* Updated theme and related plugin code to make it compatible with WordPress 4.5
+
+Files Added / Changed / Removed:
+--------------------------------
+functions.php
+inc/plugins/inspiry-real-estate.zip
+inc/util/basic-functions.php
+inc/util/member-functions.php
+inc/util/profile-functions.php
+page-templates/edit-profile.php
+page-templates/my-properties.php
+page-templates/submit-property.php
+partials/property/templates/edit-form.php
+style.css
+
+
+Version 1.3.0
+=============
+
+Features and Fixes:
+-------------------
+* Added floor plans support for a property. Multiple floor plans can be added and each floor plan can have its own image, description, price, size, beds, baths etc.
+* Improved user registration flow by emailing registered user’s password to his email to verify email.
+* Improved favourites feature by making it available even for a not-logged-in user
+* Added multiple agents support for a property.
+* Improved reCAPTCHA code to make it work with multiple agents.
+* Improved dsIDXpress styles
+* Improved google map by removing properties with empty address field
+* Improved mailing code in the overall theme to make emails more authentic by having correct from and reply-to email addresses.
+* Refactored code by dividing functions library into more files with logical names
+* Added property URL to share it via email. Improved the overall code and increased the text length for email sharing.
+* Fixed dropdown styles for responsive mortgage calculator widget.
+* Fixed horizontal scroll issue when dropdown is opened.
+* Updated translation files
+* Updated Inspiry Real Estate Plugin ( Version 1.2.0 ) included as part of theme to match with latest updates.
+
+Files Added / Changed / Removed:
+--------------------------------
+style.css
+css/custom.css
+css/main-rtl.css
+css/main.css
+css/theme.css
+functions.php
+inc/plugins/inspiry-real-estate.zip
+inc/theme-options/members-options.php
+inc/theme-options/property-options.php
+inc/util/basic-functions.php
+inc/util/breadcrumbs-functions.php
+inc/util/contact-functions.php
+inc/util/favorites-functions.php
+inc/util/member-functions.php
+inc/util/payment-functions.php
+inc/util/profile-functions.php
+inc/util/real-estate-functions.php
+js/custom.js
+js/inspiry-favorites.js
+js/inspiry-search-form.js
+js/property-share.js
+languages/default.mo
+languages/default.po
+page-templates/favorites.php
+partials/agent/single/contact-form.php
+partials/common/google-reCAPTCHA.php
+partials/header/map.php
+partials/header/user-nav.php
+partials/members/register.php
+partials/property/single/agent-information.php
+partials/property/single/contact-form.php
+partials/property/single/content.php
+partials/property/single/favorite-and-print.php
+partials/property/single/floor-plans.php
+partials/property/templates/property-for-grid.php
+
+
+Version 1.2.3
+=============
+
+Features and Fixes:
+-------------------
+* Fixed image upload issue on IOS devices for edit profile and property submit template
+* Fixed address auto complete styles issue on property submit template
+* Fixed image upload issue in presence of WPML
+* Added styles for How it Works Section
+* Fixed pagination issue on agent detail page
+* Added email notification for new user registration
+* Added translation support for validation messages on edit profile page
+* Improved property detail page third variation’s images carousel
+* Added property location on detail page
+* Improved categories and tags section for news on homepage
+* Added various other code related improvements.
+* Updated pre-packed Inspiry Real Estate plugin to support latest features
+* Tested theme with PHP 5.3, 5.4, 5.5, 5.6 and 7.0
+* Updated translation files
+* Updated Visual Composer  Plugin
+* Updated Revolution Slider Plugin
+* Updated Demo Import Contents
+
+Files Added / Changed / Removed:
+--------------------------------
+css/main-rtl.css
+css/main.css
+css/theme-rtl.css
+css/theme.css
+footer.php
+functions.php
+images/svg/icon-location.svg
+inc/plugins/inspiry-real-estate.zip
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/default-demo/content.xml
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/default-demo/theme-options.txt
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/content.xml
+inc/theme-options/extension-loader/extensions/wbc_importer/demo-data/fallback-demo/theme-options.txt
+inc/theme-options/home-options.php
+inc/theme-options/members-options.php
+inc/theme-options/styles-options.php
+inc/theme-options/styles-options/how-it-works-styles-options.php
+inc/util/basic-functions.php
+inc/util/real-estate-functions.php
+js/custom.js
+js/inspiry-edit-profile.js
+js/inspiry-property-submit.js
+js/property-horizontal-scrolling.js
+js/sly.min.js
+page-templates/edit-profile.php
+partials/home/featured-two.php
+partials/home/how-it-works.php
+partials/home/news.php
+partials/home/properties-two.php
+partials/home/properties.php
+partials/home/slider-two.php
+partials/home/slider.php
+partials/property/single/children.php
+partials/property/single/similar-properties.php
+partials/property/templates/property-for-list-with-sidebar.php
+partials/property/templates/property-for-list.php
+style.css
+languages/default.mo
+languages/default.po
+
+Version 1.2.2
+=============
+
+Features and Fixes:
+-------------------
+* Fixed submit property 404 issue after WordPress 4.4 update
+* Improved property description title appearance in case of no description
+* Some minor CSS improvements
+
+Files Added / Changed / Removed:
+--------------------------------
+style.css
+css/main-rtl.css
+css/main.css
+css/theme.css
+functions.php
+inc/util/real-estate-functions.php
+page-templates/submit-property.php
+partials/property/single/content.php
+partials/property/templates/edit-form.php
+partials/property/templates/submit-form.php
+
+
+Version 1.2.1
+=============
+
+Features and Fixes:
+-------------------
+* Improved home properties styles from theme options
+* Fixed delete button bug on my properties page
+* Fixed favourites removal loader image styles
+
+Files Added / Changed / Removed:
+--------------------------------
+css/main.css
+css/theme.css
+inc/theme-options/styles-options/properties-styles-options.php
+inc/util/basic-functions.php
+js/inspiry-favorites.js
+partials/home/properties-three.php
+
+
+Version 1.2
+=============
+
+Features and Fixes:
+-------------------
+* Added 3rd variation for header
+* Added 3rd variation for homepage slider
+* Added 3rd variation for homepage properties
+* Added 3rd variation for featured properties on homepage
+* Added simplified background support for How it Works section on homepage
+* Added sticky header support
+* Added AJAX support to Login dialog
+* Added AJAX support to Registration dialog
+* Added AJAX support to Forgot password dialog
+* Added styles customization support for homepage sliders
+* Added styles customization support for home properties sections
+* Added styles customization support for home featured properties sections
+* Added API Key options for Google Maps
+* Added localization support for Google Maps
+* Added banner image and revolution slider support for Blog posts
+* Added plugin settings to change URL slugs for property, agent and related taxonomies
+* Removed meta box plugin requirement and embedded its functionality in Inspiry Real Estate plugin
+* Removed Redux framework plugin requirement and embedded its functionality in theme
+* Improved field validation on edit profile page
+* Improved WPML configuration file
+* Improved translation files and related code
+* Fixed taxonomy archive custom pagination issue
+* Fixed theme options titles and description translation issue
+* Fixed a syntax error on contact page
+* Fixed homepage banner issue
+* Fixed enlarged logo size issue in FireFox
+* Fixed select box issue
+* Fixed swipe box ( light box ) issue in RTL
+* Updated Inspiry Real Estate Plugin ( Version 1.1.0 )
+* Updated Child Theme ( Version 1.2.0 )
+* Updated Revolution Slider plugin
+* Updated Visual Composer Plugin
+* Updated Documentation
+
+
+Files Added / Changed / Removed:
+--------------------------------
+css/dynamic-css.php
+css/main-rtl.css
+css/main.css
+css/theme-rtl.css
+css/theme.css
+functions.php
+header.php
+images/svg/icon-email-two.svg
+images/svg/icon-lock.svg
+images/svg/icon-phone-two.svg
+inc/ReduxFramework/ ( added entire folder )
+inc/meta-boxes/config.php
+inc/plugins/inspiry-real-estate.zip ( updated plugin )
+inc/tgm/inspiry-required-plugins.php
+inc/theme-options/header-options.php
+inc/theme-options/home-options.php
+inc/theme-options/images/featured-variation-3.png
+inc/theme-options/images/header-variation-3.png
+inc/theme-options/images/properties-variation-3.png
+inc/theme-options/members-options.php
+inc/theme-options/misc-options.php
+inc/theme-options/options-config.php
+inc/theme-options/payments-options.php
+inc/theme-options/search-options.php
+inc/theme-options/styles-options.php
+inc/theme-options/styles-options/featured-properties-styles-options.php
+inc/theme-options/styles-options/header-styles-options.php
+inc/theme-options/styles-options/properties-styles-options.php
+inc/theme-options/styles-options/slider-styles-options.php
+inc/util/basic-functions.php
+inc/util/header-functions.php
+inc/util/real-estate-functions.php
+inc/widgets/advance-search-widget.php
+js/custom.js
+js/property-share.js
+languages/default.mo
+languages/default.po
+page-templates/contact.php
+page-templates/edit-profile.php
+page-templates/home.php
+page-templates/my-properties.php
+page-templates/properties-search.php
+partials/header/banner.php
+partials/header/contact-number.php
+partials/header/user-nav.php
+partials/header/variation-one.php
+partials/header/variation-three.php
+partials/home/featured-three.php
+partials/home/how-it-works.php
+partials/home/properties-three.php
+partials/home/slider-three.php
+partials/members/login.php
+partials/members/modal-login.php
+partials/members/register.php
+partials/members/reset-password.php
+partials/property/single/attachments.php
+partials/property/single/share.php
+partials/property/single/slider.php
+partials/search/form.php
+partials/search/header-form.php
+style.css
+wpml-config.xml
+
+
+Version 1.1.2
+=============
+
+Features and Fixes:
+-------------------
+* Fixed author page title bug
+* Fixed menu style inconsistency for header variation one
+* Fixed Quick JS bug ( Quick JS was not being included before )
+
+Files Changed:
+--------------
+css/dynamic-css.php
+functions.php
+inc/theme-options/styles-options/header-styles-options.php
+inc/util/header-functions.php
+partials/header/banner.php
+style.css
+
+
+Version 1.1.1
+=============
+
+Features and Fixes:
+-------------------
+* Fixed a bug that was restricting AJAX requests for certain level of users those are restricted to access admin dashboard
+
+Files Changed:
+--------------
+functions.php
+inc/util/basic-functions.php
+style.css
+
+
+Version 1.1.0
+=============
+
+Features and Fixes:
+-------------------
+* Added functionality to restrict admin access for certain level of users. User level can be changed from theme options.
+* Added property type taxonomy support in breadcrumbs for property detail page
+* Added br tag support for footer copyright text in theme options
+* Improved overall logic to display image banner, google map and slider revolution.
+* Improved WPML language switcher for LTR and RTL languages
+* Improved logic to display add to favorites button
+* Disabled redux customizer to avoid confusion
+* Updated languages files
+* Improved child theme to load language translation files from with-in child theme ( changed child theme version to 1.1 )
+* Updated Slider Revolution plugin to latest version.
+* Updated Visual Composer to latest version.
+
+
+Files Changed:
+--------------
+style.css
+css/main-rtl.css
+css/main.css
+css/theme.css
+footer.php
+404.php
+inc/meta-boxes/config.php
+inc/theme-options/members-options.php
+inc/theme-options/options-config.php
+inc/theme-options/property-options.php
+inc/util/basic-functions.php
+js/custom.js
+languages/default.mo
+languages/default.po
+partials/header/banner.php
+partials/header/breadcrumb.php
+partials/header/user-nav.php
+partials/property/single/favorite-and-print.php
+
+
+Version 1.0.1
+=============
+
+Features and Fixes:
+-------------------
+* Added comments support on property detail page
+* Added google map enable / disable meta box for properties display templates
+* Improved google map heigh
+
+
+Files Changed:
+--------------
+css/main.css
+css/theme.css
+functions.php
+inc/meta-boxes/config.php
+inc/plugins/inspiry-real-estate.zip
+inc/theme-options/property-options.php
+inc/util/basic-functions.php
+page-templates/agents-list-2-columns.php
+page-templates/agents-list-3-columns.php
+page-templates/agents-list-4-columns.php
+page-templates/properties-grid-with-sidebar.php
+page-templates/properties-grid.php
+page-templates/properties-list-with-sidebar.php
+page-templates/properties-list.php
+partials/header/map.php
+single-property.php
+style.css
+
+
+=============================================
+=============================================
+
+
+Initial Release Version 1.0.0
